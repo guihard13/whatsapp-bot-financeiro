@@ -107,6 +107,7 @@ try {
 client.on('qr', (qr) => {
   // Gerar QR code no terminal
   qrcode.generate(qr, { small: true });
+  console.log('QR CODE STRING:', qr);
   
   // Também registrar o QR code no console para poder visualizar nos logs do servidor
   console.log('QR CODE GERADO. Escaneie com seu WhatsApp:');
