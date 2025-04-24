@@ -1,0 +1,25 @@
+# .gitignore para o projeto do bot financeiro
+
+# Dependências
+node_modules/
+
+# Arquivos de sessão do WhatsApp
+.wwebjs_auth/
+whatsapp-session/
+
+# Diretório de comprovantes
+comprovantes/
+
+# Arquivos de dados
+*.json
+!package.json
+
+# Logs
+*.log
+
+# Variáveis de ambiente
+.env
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
